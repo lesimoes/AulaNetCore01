@@ -1,9 +1,12 @@
 ﻿<Properties StartupConfiguration="{79AEFEAA-D50E-49DF-80CE-DF4C5C471248}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="AulaCore/Views/Filme/Teste.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AulaCore/Views/Filme/Index.cshtml">
     <Files>
-      <File FileName="AulaCore/Controllers/FilmeController.cs" Line="31" Column="30" />
-      <File FileName="AulaCore/Views/Filme/Teste.cshtml" Line="4" Column="11" />
-      <File FileName="AulaCore/Views/Filme/Details.cshtml" />
+      <File FileName="AulaCore/Controllers/FilmeController.cs" Line="38" Column="85" />
+      <File FileName="AulaCore/Views/Filme/Teste.cshtml" Line="1" Column="1" />
+      <File FileName="AulaCore/Views/Filme/Details.cshtml" Line="2" Column="1" />
+      <File FileName="AulaCore/Views/Filme/ByYear.cshtml" Line="2" Column="1" />
+      <File FileName="AulaCore/Views/Filme/ListByYear.cshtml" Line="3" Column="1" />
+      <File FileName="AulaCore/Views/Filme/Index.cshtml" Line="18" Column="7" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,15 +14,13 @@
           <Node name="AulaCore" expanded="True">
             <Node name="AulaCore" expanded="True">
               <Node name="Controllers" expanded="True" />
-              <Node name="database" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Filme" expanded="True">
-                  <Node name="Teste.cshtml" selected="True" />
+                  <Node name="Index.cshtml" selected="True" />
                 </Node>
-                <Node name="Home" expanded="True" />
-                <Node name="Shared" expanded="True" />
               </Node>
+              <Node name="appsettings.json" expanded="True" />
             </Node>
           </Node>
         </State>

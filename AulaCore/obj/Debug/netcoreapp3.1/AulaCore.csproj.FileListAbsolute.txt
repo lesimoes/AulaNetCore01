@@ -168,3 +168,5 @@
 /Users/leandrosimoes/Projects/AulaCore/AulaCore/obj/Debug/netcoreapp3.1/Razor/Views/Filme/Edit.cshtml.g.cs
 /Users/leandrosimoes/Projects/AulaCore/AulaCore/obj/Debug/netcoreapp3.1/Razor/Views/Filme/Index.cshtml.g.cs
 /Users/leandrosimoes/Projects/AulaCore/AulaCore/obj/Debug/netcoreapp3.1/Razor/Views/Filme/Teste.cshtml.g.cs
+/Users/leandrosimoes/Projects/AulaCore/AulaCore/obj/Debug/netcoreapp3.1/Razor/Views/Filme/ByYear.cshtml.g.cs
+/Users/leandrosimoes/Projects/AulaCore/AulaCore/obj/Debug/netcoreapp3.1/Razor/Views/Filme/ListByYear.cshtml.g.cs

@@ -25,9 +25,17 @@ namespace AulaCore.Controllers
             return View(await _context.Filme.ToListAsync());
         }
 
-        public IActionResult Teste()
+        [Route("Filme/ByYear/{ano}")]
+        public async Task<IActionResult> ByYear(int? ano)
         {
-            var filme = new Filme() { Name = "Senhor dos Aneis", Ano = 2001 };
+            var filme = await _context.Filme.FirstOrDefaultAsync(m => m.Ano == ano);
+            return View(filme);
+        }
+
+        [Route("Filme/ListByYear/{ano}")]
+        public async Task<IActionResult> ListByYear(int? ano)
+        {
+            var filme = await _context.Filme.Where(m => m.Ano == ano).ToListAsync();
             return View(filme);
         }
 
