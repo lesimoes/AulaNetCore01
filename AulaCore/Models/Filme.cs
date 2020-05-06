@@ -6,6 +6,7 @@ namespace AulaCore.Models
         public int Id { get; set; }
         public string Name { get; set; }
         public int Ano { get; set; }
+        public int GeneroId { get; set; }
 
         public Filme()
         {

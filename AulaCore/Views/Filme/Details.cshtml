@@ -1,4 +1,4 @@
-@model AulaCore.Models.Filme
+@model AulaCore.Models.FilmeViewModel
 
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -17,22 +17,28 @@
     <h4>Filme</h4>
     <hr />
     <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Name)
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Filme.Name)
         </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Name)
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Filme.Name)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Ano)
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Filme.Ano)
         </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Ano)
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Filme.Ano)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Genero.Nome)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Genero.Nome)
         </dd>
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Edit" asp-route-id="@Model.Filme.Id">Edit</a> |
     <a asp-action="Index">Back to List</a>
 </div>
 </body>

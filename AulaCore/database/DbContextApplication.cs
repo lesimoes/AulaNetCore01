@@ -10,5 +10,6 @@ namespace AulaCore.database
         {
         }
         public DbSet<AulaCore.Models.Filme> Filme { get; set; }
+        public DbSet<AulaCore.Models.Genero> Genero { get; set; }
     }
 }

@@ -49,12 +49,21 @@ namespace AulaCore.Controllers
 
             var filme = await _context.Filme
                 .FirstOrDefaultAsync(m => m.Id == id);
+
+            var genero = await _context.Genero.FirstAsync(m => m.Id == filme.GeneroId);
+
+            var filmeViewModel = new FilmeViewModel()
+            {
+                Filme = filme,
+                Genero = genero
+            };
+
             if (filme == null)
             {
                 return NotFound();
             }
 
-            return View(filme);
+            return View(filmeViewModel);
         }
 
         // GET: Filme/Create

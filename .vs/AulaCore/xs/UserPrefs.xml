@@ -1,12 +1,11 @@
 ﻿<Properties StartupConfiguration="{79AEFEAA-D50E-49DF-80CE-DF4C5C471248}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="AulaCore/Views/Filme/Index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AulaCore/Views/Filme/Details.cshtml">
     <Files>
-      <File FileName="AulaCore/Controllers/FilmeController.cs" Line="38" Column="85" />
-      <File FileName="AulaCore/Views/Filme/Teste.cshtml" Line="1" Column="1" />
-      <File FileName="AulaCore/Views/Filme/Details.cshtml" Line="2" Column="1" />
-      <File FileName="AulaCore/Views/Filme/ByYear.cshtml" Line="2" Column="1" />
-      <File FileName="AulaCore/Views/Filme/ListByYear.cshtml" Line="3" Column="1" />
-      <File FileName="AulaCore/Views/Filme/Index.cshtml" Line="18" Column="7" />
+      <File FileName="AulaCore/Controllers/FilmeController.cs" Line="58" Column="18" />
+      <File FileName="AulaCore/Models/Filme.cs" Line="9" Column="24" />
+      <File FileName="AulaCore/Models/Genero.cs" Line="7" Column="16" />
+      <File FileName="AulaCore/Models/FilmeViewModel.cs" Line="7" Column="24" />
+      <File FileName="AulaCore/Views/Filme/Details.cshtml" Line="21" Column="54" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,13 +13,15 @@
           <Node name="AulaCore" expanded="True">
             <Node name="AulaCore" expanded="True">
               <Node name="Controllers" expanded="True" />
+              <Node name="database" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Filme" expanded="True">
-                  <Node name="Index.cshtml" selected="True" />
+                  <Node name="Details.cshtml" selected="True" />
                 </Node>
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
               </Node>
-              <Node name="appsettings.json" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -31,7 +32,9 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/leandrosimoes/Projects/AulaCore/AulaCore/Controllers/FilmeController.cs" relfile="AulaCore/Controllers/FilmeController.cs" line="61" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
